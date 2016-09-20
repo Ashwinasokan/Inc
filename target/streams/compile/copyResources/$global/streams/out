@@ -1,0 +1,4 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(/home/ashwin/INC/Ashwin-project/src/main/resources/wala.testdata.txt,/home/ashwin/INC/Ashwin-project/target/scala-2.11/classes/wala.testdata.txt)[0m
+[0m[[0mdebug[0m] [0m	(/home/ashwin/INC/Ashwin-project/src/main/resources/primordial.txt,/home/ashwin/INC/Ashwin-project/target/scala-2.11/classes/primordial.txt)[0m
+[0m[[0mdebug[0m] [0m	(/home/ashwin/INC/Ashwin-project/src/main/resources/primordial.jar.model,/home/ashwin/INC/Ashwin-project/target/scala-2.11/classes/primordial.jar.model)[0m

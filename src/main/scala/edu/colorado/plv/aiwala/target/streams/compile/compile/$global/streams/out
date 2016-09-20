@@ -1,0 +1,340 @@
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mInitial source changes: [0m
+[0m[[0mdebug[0m] [0m	removed:Set()[0m
+[0m[[0mdebug[0m] [0m	added: Set(/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/IncrementalAnalysis.scala, /home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/SliceAnalysis.scala, /home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/WalaClient.scala)[0m
+[0m[[0mdebug[0m] [0m	modified: Set()[0m
+[0m[[0mdebug[0m] [0mRemoved products: Set()[0m
+[0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/IncrementalAnalysis.scala, /home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/SliceAnalysis.scala, /home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/WalaClient.scala)[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m	product: Set()[0m
+[0m[[0mdebug[0m] [0m	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/IncrementalAnalysis.scala, /home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/SliceAnalysis.scala, /home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/WalaClient.scala)[0m
+[0m[[0mdebug[0m] [0mRecompiling all 3 sources: invalidated sources (3) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 3 Scala sources to /home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/target/scala-2.10/classes...[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.10.4[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.10.4[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 23f1389e, interfacing (CompilerInterface) with Scala compiler version 2.10.4[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes:/home/ashwin/.sbt/boot/scala-2.10.4/lib/scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/target/scala-2.10/classes[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/IncrementalAnalysis.scala:3: object ibm is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.ibm.wala.ssa.IR[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/IncrementalAnalysis.scala:4: object ibm is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.ibm.wala.ipa.callgraph.CGNode[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/IncrementalAnalysis.scala:5: object ibm is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.ibm.wala.ssa._[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/IncrementalAnalysis.scala:6: object ibm is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.ibm.wala.types.FieldReference[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/IncrementalAnalysis.scala:8: object ibm is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.ibm.wala.types.MethodReference[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/IncrementalAnalysis.scala:9: object ibm is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.ibm.wala.shrikeBT.IBinaryOpInstruction[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/IncrementalAnalysis.scala:10: object ibm is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.ibm.wala.shrikeBT.IConditionalBranchInstruction[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/IncrementalAnalysis.scala:11: not found: type IR[0m
+[0m[[31merror[0m] [0mclass IncrementalAnalysis(old: IR, ir: IR){[0m
+[0m[[31merror[0m] [0m                               ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/IncrementalAnalysis.scala:11: not found: type IR[0m
+[0m[[31merror[0m] [0mclass IncrementalAnalysis(old: IR, ir: IR){[0m
+[0m[[31merror[0m] [0m                                       ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/IncrementalAnalysis.scala:12: not found: type SSAInstruction[0m
+[0m[[31merror[0m] [0m  lazy val getInstructions : Array[SSAInstruction] = {[0m
+[0m[[31merror[0m] [0m                                   ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/IncrementalAnalysis.scala:16: not found: type SSAInstruction[0m
+[0m[[31merror[0m] [0m  lazy val getOldInstructions : Array[SSAInstruction] = {[0m
+[0m[[31merror[0m] [0m                                      ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/IncrementalAnalysis.scala:20: not found: type SSAInstruction[0m
+[0m[[31merror[0m] [0m  lazy val nextInstrMap : Map[Int,SSAInstruction] = {[0m
+[0m[[31merror[0m] [0m                                  ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/IncrementalAnalysis.scala:21: not found: type SSAInstruction[0m
+[0m[[31merror[0m] [0m    val instrs : Array[SSAInstruction] = getInstructions[0m
+[0m[[31merror[0m] [0m                       ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/IncrementalAnalysis.scala:25: not found: type SSAInstruction[0m
+[0m[[31merror[0m] [0m  lazy val previousInstrMap : Map[Int,SSAInstruction] = {[0m
+[0m[[31merror[0m] [0m                                      ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/IncrementalAnalysis.scala:26: not found: type SSAInstruction[0m
+[0m[[31merror[0m] [0m    val instrs : Array[SSAInstruction] = getInstructions.reverse[0m
+[0m[[31merror[0m] [0m                       ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/IncrementalAnalysis.scala:26: type mismatch;[0m
+[0m[[31merror[0m] [0m found   : IncrementalAnalysis.this.getInstructions.type (with underlying type Array[<error>])[0m
+[0m[[31merror[0m] [0m required: ?{def reverse: ?}[0m
+[0m[[31merror[0m] [0mNote that implicit conversions are not applicable because they are ambiguous:[0m
+[0m[[31merror[0m] [0m both method booleanArrayOps in object Predef of type (xs: Array[Boolean])scala.collection.mutable.ArrayOps[Boolean][0m
+[0m[[31merror[0m] [0m and method byteArrayOps in object Predef of type (xs: Array[Byte])scala.collection.mutable.ArrayOps[Byte][0m
+[0m[[31merror[0m] [0m are possible conversion functions from IncrementalAnalysis.this.getInstructions.type to ?{def reverse: ?}[0m
+[0m[[31merror[0m] [0m    val instrs : Array[SSAInstruction] = getInstructions.reverse[0m
+[0m[[31merror[0m] [0m                                         ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/IncrementalAnalysis.scala:30: not found: type SSAInstruction[0m
+[0m[[31merror[0m] [0m  lazy val oldPreviousInstrMap : Map[Int,SSAInstruction] = {[0m
+[0m[[31merror[0m] [0m                                         ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/IncrementalAnalysis.scala:31: not found: type SSAInstruction[0m
+[0m[[31merror[0m] [0m    val instrs : Array[SSAInstruction] = getOldInstructions.reverse[0m
+[0m[[31merror[0m] [0m                       ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/IncrementalAnalysis.scala:31: type mismatch;[0m
+[0m[[31merror[0m] [0m found   : IncrementalAnalysis.this.getOldInstructions.type (with underlying type Array[<error>])[0m
+[0m[[31merror[0m] [0m required: ?{def reverse: ?}[0m
+[0m[[31merror[0m] [0mNote that implicit conversions are not applicable because they are ambiguous:[0m
+[0m[[31merror[0m] [0m both method booleanArrayOps in object Predef of type (xs: Array[Boolean])scala.collection.mutable.ArrayOps[Boolean][0m
+[0m[[31merror[0m] [0m and method byteArrayOps in object Predef of type (xs: Array[Byte])scala.collection.mutable.ArrayOps[Byte][0m
+[0m[[31merror[0m] [0m are possible conversion functions from IncrementalAnalysis.this.getOldInstructions.type to ?{def reverse: ?}[0m
+[0m[[31merror[0m] [0m    val instrs : Array[SSAInstruction] = getOldInstructions.reverse[0m
+[0m[[31merror[0m] [0m                                         ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/IncrementalAnalysis.scala:35: not found: type SSAInstruction[0m
+[0m[[31merror[0m] [0m  lazy val oldNextInstrMap : Map[Int,SSAInstruction] = {[0m
+[0m[[31merror[0m] [0m                                     ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/IncrementalAnalysis.scala:36: not found: type SSAInstruction[0m
+[0m[[31merror[0m] [0m    val instrs : Array[SSAInstruction] = getOldInstructions[0m
+[0m[[31merror[0m] [0m                       ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/IncrementalAnalysis.scala:40: not found: type SSAInstruction[0m
+[0m[[31merror[0m] [0m  def getNextInstr(instr: SSAInstruction): SSAInstruction = {[0m
+[0m[[31merror[0m] [0m                                           ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/IncrementalAnalysis.scala:40: not found: type SSAInstruction[0m
+[0m[[31merror[0m] [0m  def getNextInstr(instr: SSAInstruction): SSAInstruction = {[0m
+[0m[[31merror[0m] [0m                          ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/IncrementalAnalysis.scala:43: not found: type SSAInstruction[0m
+[0m[[31merror[0m] [0m  def getPreviousInstr(instr: SSAInstruction): SSAInstruction = {[0m
+[0m[[31merror[0m] [0m                                               ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/IncrementalAnalysis.scala:43: not found: type SSAInstruction[0m
+[0m[[31merror[0m] [0m  def getPreviousInstr(instr: SSAInstruction): SSAInstruction = {[0m
+[0m[[31merror[0m] [0m                              ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/IncrementalAnalysis.scala:47: not found: type SSAInstruction[0m
+[0m[[31merror[0m] [0m  def getOldPreviousInstr(instr: SSAInstruction): SSAInstruction = {[0m
+[0m[[31merror[0m] [0m                                                  ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/IncrementalAnalysis.scala:47: not found: type SSAInstruction[0m
+[0m[[31merror[0m] [0m  def getOldPreviousInstr(instr: SSAInstruction): SSAInstruction = {[0m
+[0m[[31merror[0m] [0m                                 ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/IncrementalAnalysis.scala:51: not found: type SSAInstruction[0m
+[0m[[31merror[0m] [0m  def getOldNextInstr(instr: SSAInstruction): SSAInstruction = {[0m
+[0m[[31merror[0m] [0m                                              ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/IncrementalAnalysis.scala:51: not found: type SSAInstruction[0m
+[0m[[31merror[0m] [0m  def getOldNextInstr(instr: SSAInstruction): SSAInstruction = {[0m
+[0m[[31merror[0m] [0m                             ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/IncrementalAnalysis.scala:55: not found: type SSAInstruction[0m
+[0m[[31merror[0m] [0m  def getInstrIndex(instruction:SSAInstruction): Int = {[0m
+[0m[[31merror[0m] [0m                                ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/IncrementalAnalysis.scala:65: not found: type SSAInstruction[0m
+[0m[[31merror[0m] [0m  def getInstrAtIndex(index: Int): SSAInstruction = {[0m
+[0m[[31merror[0m] [0m                                   ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/IncrementalAnalysis.scala:68: value iterator is not a member of Any[0m
+[0m[[31merror[0m] [0m      case Some(bb) => bb.iterator.next[0m
+[0m[[31merror[0m] [0m                          ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/IncrementalAnalysis.scala:74: not found: type SSAInstruction[0m
+[0m[[31merror[0m] [0m                         defs: Map[String, (SSAInstruction, Set[LocalVar])],lastInstrRelevants:Set[LocalVar]): (Set[LocalVar],Set[SSAInstruction]) = {[0m
+[0m[[31merror[0m] [0m                                                                                                                                  ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/IncrementalAnalysis.scala:73: not found: type SSAInstruction[0m
+[0m[[31merror[0m] [0m  def calculateRelevance(curInstr:SSAInstruction,refs: Map[String, (SSAInstruction, Set[LocalVar])],[0m
+[0m[[31merror[0m] [0m                                  ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/IncrementalAnalysis.scala:73: not found: type SSAInstruction[0m
+[0m[[31merror[0m] [0m  def calculateRelevance(curInstr:SSAInstruction,refs: Map[String, (SSAInstruction, Set[LocalVar])],[0m
+[0m[[31merror[0m] [0m                                                                    ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/IncrementalAnalysis.scala:74: not found: type SSAInstruction[0m
+[0m[[31merror[0m] [0m                         defs: Map[String, (SSAInstruction, Set[LocalVar])],lastInstrRelevants:Set[LocalVar]): (Set[LocalVar],Set[SSAInstruction]) = {[0m
+[0m[[31merror[0m] [0m                                            ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/IncrementalAnalysis.scala:76: not found: type SSAInstruction[0m
+[0m[[31merror[0m] [0m      (Set[LocalVar]() ++ lastInstrRelevants,Set[SSAInstruction]())[0m
+[0m[[31merror[0m] [0m                                                 ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/IncrementalAnalysis.scala:79: not found: type SSAInstruction[0m
+[0m[[31merror[0m] [0m      (Set[LocalVar]() ++ lastInstrRelevants ++ (defs.get(curInstr.toString).get._2),Set[SSAInstruction](curInstr))[0m
+[0m[[31merror[0m] [0m                                                                                         ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/SliceAnalysis.scala:5: object ibm is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.ibm.wala.ssa._[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/SliceAnalysis.scala:16: not found: type SSAInstruction[0m
+[0m[[31merror[0m] [0mcase class State(worklist: List[SSAInstruction],[0m
+[0m[[31merror[0m] [0m                                ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/SliceAnalysis.scala:19: not found: type SSAInstruction[0m
+[0m[[31merror[0m] [0m                 slice : Set[SSAInstruction],[0m
+[0m[[31merror[0m] [0m                             ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/SliceAnalysis.scala:17: not found: type SSAInstruction[0m
+[0m[[31merror[0m] [0m                 lastInstr: SSAInstruction,[0m
+[0m[[31merror[0m] [0m                            ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/SliceAnalysis.scala:24: not found: type SSAInstruction[0m
+[0m[[31merror[0m] [0m                 relevants: Map[String, (SSAInstruction, Set[LocalVar])])[0m
+[0m[[31merror[0m] [0m                                         ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/SliceAnalysis.scala:22: not found: type SSAInstruction[0m
+[0m[[31merror[0m] [0m                 refs: Map[String, (SSAInstruction, Set[LocalVar])],[0m
+[0m[[31merror[0m] [0m                                    ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/SliceAnalysis.scala:23: not found: type SSAInstruction[0m
+[0m[[31merror[0m] [0m                 defs: Map[String, (SSAInstruction, Set[LocalVar])],[0m
+[0m[[31merror[0m] [0m                                    ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/SliceAnalysis.scala:18: not found: type SSACFG[0m
+[0m[[31merror[0m] [0m                 history : List[SSACFG#BasicBlock],[0m
+[0m[[31merror[0m] [0m                                ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/SliceAnalysis.scala:3: object ibm is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.ibm.wala.ssa.IR[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/SliceAnalysis.scala:4: object ibm is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.ibm.wala.ipa.callgraph.CGNode[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/SliceAnalysis.scala:6: object ibm is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.ibm.wala.types.FieldReference[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/SliceAnalysis.scala:8: object ibm is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.ibm.wala.types.MethodReference[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/SliceAnalysis.scala:9: object ibm is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.ibm.wala.shrikeBT.IBinaryOpInstruction[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/SliceAnalysis.scala:10: object ibm is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.ibm.wala.shrikeBT.IConditionalBranchInstruction[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/SliceAnalysis.scala:13: not found: type FieldReference[0m
+[0m[[31merror[0m] [0msealed case class StaticVar(fld : FieldReference)[0m
+[0m[[31merror[0m] [0m                                  ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/SliceAnalysis.scala:26: not found: type IR[0m
+[0m[[31merror[0m] [0mclass SliceAnalysis(ir: IR){[0m
+[0m[[31merror[0m] [0m                        ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/SliceAnalysis.scala:27: not found: type SSAInstruction[0m
+[0m[[31merror[0m] [0m  var refs = Map[String, (SSAInstruction, Set[LocalVar])]()[0m
+[0m[[31merror[0m] [0m                          ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/SliceAnalysis.scala:28: not found: type SSAInstruction[0m
+[0m[[31merror[0m] [0m  var defs = Map[String, (SSAInstruction, Set[LocalVar])]()[0m
+[0m[[31merror[0m] [0m                          ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/SliceAnalysis.scala:29: not found: type SSAInstruction[0m
+[0m[[31merror[0m] [0m  var relevants = Map[String, (SSAInstruction, Set[LocalVar])]()[0m
+[0m[[31merror[0m] [0m                               ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/SliceAnalysis.scala:32: not found: type SSACFG[0m
+[0m[[31merror[0m] [0m    val history: List[SSACFG#BasicBlock] = List[SSACFG#BasicBlock](ir.getControlFlowGraph.getBasicBlock(0))[0m
+[0m[[31merror[0m] [0m                      ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/SliceAnalysis.scala:32: not found: type SSACFG[0m
+[0m[[31merror[0m] [0m    val history: List[SSACFG#BasicBlock] = List[SSACFG#BasicBlock](ir.getControlFlowGraph.getBasicBlock(0))[0m
+[0m[[31merror[0m] [0m                                                ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/SliceAnalysis.scala:55: not found: type SSAInstruction[0m
+[0m[[31merror[0m] [0m  lazy val getInstructions : Array[SSAInstruction] = {[0m
+[0m[[31merror[0m] [0m                                   ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/SliceAnalysis.scala:36: not found: type SSAReturnInstruction[0m
+[0m[[31merror[0m] [0m       case instr: SSAReturnInstruction => (Set[LocalVar](),Set[LocalVar]())[0m
+[0m[[31merror[0m] [0m                   ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/SliceAnalysis.scala:37: not found: type SSAPhiInstruction[0m
+[0m[[31merror[0m] [0m       case instr: SSAPhiInstruction => (Set[LocalVar](LocalVar(instr.getUse(0)),LocalVar(instr.getUse(1))),Set[LocalVar](LocalVar(instr.getDef)))[0m
+[0m[[31merror[0m] [0m                   ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/SliceAnalysis.scala:38: not found: type SSAPutInstruction[0m
+[0m[[31merror[0m] [0m       case instr: SSAPutInstruction => (Set[LocalVar](),Set[LocalVar]())[0m
+[0m[[31merror[0m] [0m                   ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/SliceAnalysis.scala:39: not found: type SSAGetInstruction[0m
+[0m[[31merror[0m] [0m       case instr: SSAGetInstruction => (Set[LocalVar](),Set[LocalVar]())[0m
+[0m[[31merror[0m] [0m                   ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/SliceAnalysis.scala:40: not found: type SSAGotoInstruction[0m
+[0m[[31merror[0m] [0m       case instr: SSAGotoInstruction => (Set[LocalVar](),Set[LocalVar]())[0m
+[0m[[31merror[0m] [0m                   ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/SliceAnalysis.scala:41: not found: type SSABinaryOpInstruction[0m
+[0m[[31merror[0m] [0m       case instr: SSABinaryOpInstruction => (Set[LocalVar](LocalVar(instr.getUse(0)),LocalVar(instr.getUse(1))),Set[LocalVar](LocalVar(instr.getDef)))[0m
+[0m[[31merror[0m] [0m                   ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/SliceAnalysis.scala:42: not found: type SSAConditionalBranchInstruction[0m
+[0m[[31merror[0m] [0m       case instr: SSAConditionalBranchInstruction => (Set[LocalVar](LocalVar(instr.getUse(0)),LocalVar(instr.getUse(1))),Set[LocalVar]())[0m
+[0m[[31merror[0m] [0m                   ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/SliceAnalysis.scala:49: not found: type SSAInstruction[0m
+[0m[[31merror[0m] [0m    val slice: Set[SSAInstruction] = Set[SSAInstruction](instrs(0))[0m
+[0m[[31merror[0m] [0m                   ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/SliceAnalysis.scala:49: not found: type SSAInstruction[0m
+[0m[[31merror[0m] [0m    val slice: Set[SSAInstruction] = Set[SSAInstruction](instrs(0))[0m
+[0m[[31merror[0m] [0m                                         ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/SliceAnalysis.scala:167: not found: type SSAInstruction[0m
+[0m[[31merror[0m] [0m                         defs: Map[String, (SSAInstruction, Set[LocalVar])],lastInstrRelevants:Set[LocalVar]): (Set[LocalVar],Set[SSAInstruction]) = {[0m
+[0m[[31merror[0m] [0m                                                                                                                                  ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/SliceAnalysis.scala:166: not found: type SSAInstruction[0m
+[0m[[31merror[0m] [0m  def calculateRelevance(curInstr:SSAInstruction,refs: Map[String, (SSAInstruction, Set[LocalVar])],[0m
+[0m[[31merror[0m] [0m                                  ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/SliceAnalysis.scala:166: not found: type SSAInstruction[0m
+[0m[[31merror[0m] [0m  def calculateRelevance(curInstr:SSAInstruction,refs: Map[String, (SSAInstruction, Set[LocalVar])],[0m
+[0m[[31merror[0m] [0m                                                                    ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/SliceAnalysis.scala:167: not found: type SSAInstruction[0m
+[0m[[31merror[0m] [0m                         defs: Map[String, (SSAInstruction, Set[LocalVar])],lastInstrRelevants:Set[LocalVar]): (Set[LocalVar],Set[SSAInstruction]) = {[0m
+[0m[[31merror[0m] [0m                                            ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/SliceAnalysis.scala:59: not found: type SSAInstruction[0m
+[0m[[31merror[0m] [0m  lazy val nextInstrMap : Map[Int,SSAInstruction] = {[0m
+[0m[[31merror[0m] [0m                                  ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/SliceAnalysis.scala:60: not found: type SSAInstruction[0m
+[0m[[31merror[0m] [0m    val instrs : Array[SSAInstruction] = getInstructions[0m
+[0m[[31merror[0m] [0m                       ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/SliceAnalysis.scala:64: not found: type SSAInstruction[0m
+[0m[[31merror[0m] [0m  def getNextInstr(instr: SSAInstruction): SSAInstruction = {[0m
+[0m[[31merror[0m] [0m                                           ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/SliceAnalysis.scala:64: not found: type SSAInstruction[0m
+[0m[[31merror[0m] [0m  def getNextInstr(instr: SSAInstruction): SSAInstruction = {[0m
+[0m[[31merror[0m] [0m                          ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/SliceAnalysis.scala:68: not found: type SSAInstruction[0m
+[0m[[31merror[0m] [0m  def getInstrIndex(instruction:SSAInstruction): Int = {[0m
+[0m[[31merror[0m] [0m                                ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/SliceAnalysis.scala:78: not found: type SSAInstruction[0m
+[0m[[31merror[0m] [0m  def getPiInstrIndex(instruction:SSAInstruction): Int = {[0m
+[0m[[31merror[0m] [0m                                  ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/SliceAnalysis.scala:79: not found: type ISSABasicBlock[0m
+[0m[[31merror[0m] [0m    val basicBlock: ISSABasicBlock = ir.getBasicBlockForInstruction(instruction)[0m
+[0m[[31merror[0m] [0m                    ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/SliceAnalysis.scala:83: not found: type SSAInstruction[0m
+[0m[[31merror[0m] [0m  def getInstrAtIndex(index: Int): SSAInstruction = {[0m
+[0m[[31merror[0m] [0m                                   ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/SliceAnalysis.scala:86: value iterator is not a member of Any[0m
+[0m[[31merror[0m] [0m      case Some(bb) => bb.iterator.next[0m
+[0m[[31merror[0m] [0m                          ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/SliceAnalysis.scala:104: not found: type SymbolTable[0m
+[0m[[31merror[0m] [0m  def getValueString(valueNumber: Int, symbolTable: SymbolTable): String = {[0m
+[0m[[31merror[0m] [0m                                                    ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/SliceAnalysis.scala:126: not found: type FieldReference[0m
+[0m[[31merror[0m] [0m  def getStatic(fld: FieldReference, statics: Map[StaticVar,  Val[_]]): (Val[_], Map[StaticVar,  Val[_]]) = {[0m
+[0m[[31merror[0m] [0m                     ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/SliceAnalysis.scala:135: not found: value IConditionalBranchInstruction[0m
+[0m[[31merror[0m] [0m  def Conditional(val1: Val[_], val2: Val[_], op: IConditionalBranchInstruction.Operator): Boolean = {[0m
+[0m[[31merror[0m] [0m                                                  ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/SliceAnalysis.scala:139: not found: value IConditionalBranchInstruction[0m
+[0m[[31merror[0m] [0m          case IConditionalBranchInstruction.Operator.EQ => if (l.value == r.value) true else false[0m
+[0m[[31merror[0m] [0m               ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/SliceAnalysis.scala:140: not found: value IConditionalBranchInstruction[0m
+[0m[[31merror[0m] [0m          case IConditionalBranchInstruction.Operator.GE => if (l.value.asInstanceOf[Int] >= r.value.asInstanceOf[Int]) true else false[0m
+[0m[[31merror[0m] [0m               ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/SliceAnalysis.scala:141: not found: value IConditionalBranchInstruction[0m
+[0m[[31merror[0m] [0m          case IConditionalBranchInstruction.Operator.GT => if (l.value.asInstanceOf[Int] > r.value.asInstanceOf[Int])true else false[0m
+[0m[[31merror[0m] [0m               ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/SliceAnalysis.scala:142: not found: value IConditionalBranchInstruction[0m
+[0m[[31merror[0m] [0m          case IConditionalBranchInstruction.Operator.LE => if (l.value.asInstanceOf[Int] <= r.value.asInstanceOf[Int]) true else false[0m
+[0m[[31merror[0m] [0m               ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/SliceAnalysis.scala:143: not found: value IConditionalBranchInstruction[0m
+[0m[[31merror[0m] [0m          case IConditionalBranchInstruction.Operator.LT => if (l.value.asInstanceOf[Int] < r.value.asInstanceOf[Int]) true else false[0m
+[0m[[31merror[0m] [0m               ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/SliceAnalysis.scala:144: not found: value IConditionalBranchInstruction[0m
+[0m[[31merror[0m] [0m          case IConditionalBranchInstruction.Operator.NE => if (l.value.asInstanceOf[Int] != r.value.asInstanceOf[Int]) true else false[0m
+[0m[[31merror[0m] [0m               ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/SliceAnalysis.scala:150: not found: value IBinaryOpInstruction[0m
+[0m[[31merror[0m] [0m  def BinaryOperation(val1: Val[_], val2: Val[_], op: IBinaryOpInstruction.Operator): Val[_] = {[0m
+[0m[[31merror[0m] [0m                                                      ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/SliceAnalysis.scala:154: not found: value IBinaryOpInstruction[0m
+[0m[[31merror[0m] [0m          case IBinaryOpInstruction.Operator.ADD => Val(l.value.asInstanceOf[Int] + r.value.asInstanceOf[Int])[0m
+[0m[[31merror[0m] [0m               ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/SliceAnalysis.scala:155: not found: value IBinaryOpInstruction[0m
+[0m[[31merror[0m] [0m          case IBinaryOpInstruction.Operator.SUB => Val(l.value.asInstanceOf[Int] - r.value.asInstanceOf[Int])[0m
+[0m[[31merror[0m] [0m               ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/SliceAnalysis.scala:156: not found: value IBinaryOpInstruction[0m
+[0m[[31merror[0m] [0m          case IBinaryOpInstruction.Operator.MUL => Val(l.value.asInstanceOf[Int] * r.value.asInstanceOf[Int])[0m
+[0m[[31merror[0m] [0m               ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/SliceAnalysis.scala:157: not found: value IBinaryOpInstruction[0m
+[0m[[31merror[0m] [0m          case IBinaryOpInstruction.Operator.DIV => Val(l.value.asInstanceOf[Int] / r.value.asInstanceOf[Int])[0m
+[0m[[31merror[0m] [0m               ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/SliceAnalysis.scala:158: not found: value IBinaryOpInstruction[0m
+[0m[[31merror[0m] [0m          case IBinaryOpInstruction.Operator.OR => Val(l.value.asInstanceOf[Boolean] || r.value.asInstanceOf[Boolean])[0m
+[0m[[31merror[0m] [0m               ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/SliceAnalysis.scala:159: not found: value IBinaryOpInstruction[0m
+[0m[[31merror[0m] [0m          case IBinaryOpInstruction.Operator.AND => Val(l.value.asInstanceOf[Boolean] && r.value.asInstanceOf[Boolean])[0m
+[0m[[31merror[0m] [0m               ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/SliceAnalysis.scala:169: not found: type SSAInstruction[0m
+[0m[[31merror[0m] [0m      (Set[LocalVar]() ++ lastInstrRelevants,Set[SSAInstruction]())[0m
+[0m[[31merror[0m] [0m                                                 ^[0m
+[0m[[31merror[0m] [0m/home/ashwin/INC/Ashwin-project/src/main/scala/edu/colorado/plv/aiwala/SliceAnalysis.scala:172: not found: type SSAInstruction[0m
+[0m[[31merror[0m] [0m      (Set[LocalVar]() ++ lastInstrRelevants ++ (defs.get(curInstr.toString).get._2),Set[SSAInstruction](curInstr))[0m
+[0m[[31merror[0m] [0m                                                                                         ^[0m
+[0m[[31merror[0m] [0m137 errors found[0m
+[0m[[0mdebug[0m] [0mCompilation failed (CompilerInterface)[0m
+[0m[[31merror[0m] [0m(compile:[31mcompile[0m) Compilation failed[0m
