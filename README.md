@@ -2,9 +2,9 @@
 
 A project to develop a incremental data flow analyzer for Java bytecode programs on top of [WALA](https://wala.sf.net/).
 
-[Presentation Slides] (https://git.cs.colorado.edu/csci7135-analysis-s16/project-ashwin/blob/4e3e546f9063381d9234b53038f86ffaa5f8848c/presentation.pdf)
+[Presentation Slides](https://github.com/Ashwinasokan/Inc/blob/master/presentation.pdf)
 
-[Project Report] (https://git.cs.colorado.edu/csci7135-analysis-s16/project-ashwin/blob/4e3e546f9063381d9234b53038f86ffaa5f8848c/report.pdf)
+[Project Report](https://github.com/Ashwinasokan/Inc/blob/master/report.pdf)
 
 There are two basic blocks,
 
