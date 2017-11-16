@@ -1,6 +1,6 @@
 # Taint Analysis of Java Programs using incremental Slicing
 
-A project to develop a incremental data flow analyzer for Java bytecode programs on top of [WALA](https://wala.sf.net/).
+A project to develop a incremental data flow analyzer for Java bytecode programs on top of [WALA](http://wala.sourceforge.net).
 
 [Presentation Slides](https://github.com/Ashwinasokan/Inc/blob/master/presentation.pdf)
 
